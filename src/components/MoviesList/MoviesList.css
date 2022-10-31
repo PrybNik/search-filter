@@ -1,0 +1,23 @@
+.movies-list-container {
+  margin-top: 6px;
+  padding: 0 12px;
+  font-weight: 500;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+
+.movie-container .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-container .right {
+  color: grey;
+}

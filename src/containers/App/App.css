@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  width: 640px;
+}
+
+.selectors div + div {
+  margin-left: 8px;
+  
+}
+
+.MuiCheckbox-root {
+  height: 24px;
+  padding-left: 0;
+}
+
+.MuiAutocomplete-root{
+  width: 350px;
+}
